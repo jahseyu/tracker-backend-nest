@@ -11,10 +11,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   root: true,
-  env: {
-    node: true,
-    jest: true,
-  },
+  env: { node: true },
   ignorePatterns: ['.eslintrc.cjs'],
   rules: {
     '@typescript-eslint/interface-name-prefix': 'off',
